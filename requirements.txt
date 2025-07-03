@@ -1,0 +1,6 @@
+ultralytics
+streamlit
+clip
+opencv-python-headless
+av
+streamlit_webrtc
