@@ -14,7 +14,6 @@ def callback(frame):
 
     img = model(img,conf=0.4,iou= 0.5)
 
-    # 結果をフレームに描画して表示
     img = img[0].plot()
 
     return av.VideoFrame.from_ndarray(img, format="bgr24")
