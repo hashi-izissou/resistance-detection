@@ -1,5 +1,5 @@
 ultralytics
-streamlit==1.33.0
+streamlit
 clip
 opencv-python-headless
 av
